@@ -6,7 +6,7 @@ import unittest
 import pigen
 import os
 
-DIGITS = open(f'{os.getcwd()}/tests/1K_digits_of_pi.txt', 'r').read()
+DIGITS = open(os.getcwd() + '/tests/1K_digits_of_pi.txt', 'r').read()
 NUM = len(DIGITS)
 
 
