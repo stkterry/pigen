@@ -1,7 +1,0 @@
-action: py37, msg: envreport
-cwd: /home/szczepan/dev/python3/pigen
-cmd: /home/szczepan/dev/python3/pigen/.tox/py37/bin/python -m pip freeze
-Click==7.0
-gmpy2==2.0.8
-mock==4.0.1
-pigen==0.1.2
