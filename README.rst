@@ -49,7 +49,6 @@ Fractional Continuation **pigen.frac_pi**
 * You can pass your own lambda functions for other well behaved irrational numbers!
 * You can specify the base for output as well, i.e., decimal, hex, etc.
 
-
 .. code-block:: python
 
   from pigen import frac_pi as fpi
@@ -70,14 +69,12 @@ Fractional Continuation **pigen.frac_pi**
 Chudnovsky's Pure Algorithm **pigen.chudnovsky_pi**
 ===================================================
 
-.. code-block:: python
+* chudnovsky_pi is a regular function.
+* Useful if you need many digits at once.
+* Slower than using pigen.frac_pi but less fussy.
+* You need only pass the number of digits you'd like to generate.
 
-  """
-  chudnovsky_pi is a regular function.
-  Useful if you need many digits at once.
-  Slower than using pigen.frac_pi but less fussy.
-  You need only pass the number of digits you'd like to generate.
-  """
+.. code-block:: python
 
   from pigen import chudnovsky_pi as cpi
   n = 1000
@@ -92,13 +89,9 @@ Chudnovsky's Binary Search **pigen.chudnovsky_pi_bs**
 * The absolute fastest across the board. If you need a million
 * digits or more, this has got you covered.
 * You need only pass the number of digits you'd like to generate.
-* 
-* Makes heavy use of gmpy2 and the associated libs.  Very fast
-* but you may need to install other platform specific dependencies.
-
+* Makes heavy use of gmpy2 and the associated libs.  Very fast but you may need to install other platform specific dependencies.
 
 .. code-block:: python
-  :linenos:
  
   from pigen import chudnovsky_pi_bs as cpibs
   n = 1000000
