@@ -2,7 +2,7 @@
 
 __author__ = """Steven K Terry"""
 __email__ = 'stkterry@gmail.com'
-__version__ = '0.1.2'
+__version__ = '0.1.3'
 
 
 from .pigen import spigot_pi, frac_pi, chudnovsky_pi
