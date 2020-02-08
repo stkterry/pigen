@@ -11,4 +11,5 @@ pigen.egg-info/PKG-INFO
 pigen.egg-info/SOURCES.txt
 pigen.egg-info/dependency_links.txt
 pigen.egg-info/not-zip-safe
+pigen.egg-info/requires.txt
 pigen.egg-info/top_level.txt

@@ -16,7 +16,7 @@ PiGen : Generators For Digits of Pi
 
 Overview
 --------
-A small collection of generators and functions for digits of pi. Maybe 
+A small collection of generators and functions for digits of pi. Maybe
 you've an art or math project and need to generate a few thousand to
 a few million digits of pi?  This will help with that.
 
@@ -46,7 +46,8 @@ Fractional Continuation | *pigen.frac_pi*
 * frac_pi is a generator function.
 * Useful when you only need a single digit at a time.
 * Fastest single digit generator currently in the package.
-* You can pass your own lambda functions for other well behaved irrational numbers!
+* You can pass your own lambda functions for other well behaved
+  irrational numbers!
 * You can specify the base for output as well, i.e., decimal, hex, etc.
 
 .. code-block:: python
@@ -79,7 +80,7 @@ Chudnovsky's Pure Algorithm | *pigen.chudnovsky_pi*
   from pigen import chudnovsky_pi as cpi
   n = 1000
   n_pi_digits = cpi(n) # An integer `n` digits long containing digits of pi
-  
+
 
 Chudnovsky's Binary Search | *pigen.chudnovsky_pi_bs*
 =====================================================
@@ -89,14 +90,15 @@ Chudnovsky's Binary Search | *pigen.chudnovsky_pi_bs*
 * The absolute fastest across the board. If you need a million
 * digits or more, this has got you covered.
 * You need only pass the number of digits you'd like to generate.
-* Makes heavy use of gmpy2 and the associated libs.  Very fast but you may need to install other platform specific dependencies.
+* Makes heavy use of gmpy2 and the associated libs.  Very fast but you may need
+  to install other platform specific dependencies.
 
 .. code-block:: python
- 
+
   from pigen import chudnovsky_pi_bs as cpibs
   n = 1000000
   n_pi_digits = cpibs(n) # An integer `n` digits long containing digits of pi
-  
+
 Other
 -----
 * Free software: MIT license
@@ -108,4 +110,5 @@ Other
 
 Credits
 -------
-* The Chudnovsky's BS Algorithm was pulled and updated from an example by Nick Craig-Wood.
+* The Chudnovsky's BS Algorithm was pulled and updated from an example by
+  Nick Craig-Wood.
