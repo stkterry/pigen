@@ -1,0 +1,10 @@
+action: py37, msg: getenv
+cwd: /home/szczepan/dev/python3/pigen/.tox
+cmd: /home/szczepan/.virtualenvs/pigen/bin/python3 -m virtualenv --no-download --python /home/szczepan/.virtualenvs/pigen/bin/python3 py37
+Already using interpreter /home/szczepan/.virtualenvs/pigen/bin/python3
+Using real prefix '/usr'
+Path not in prefix '/home/szczepan/.virtualenvs/pigen/include/python3.7m' '/usr'
+New python executable in /home/szczepan/dev/python3/pigen/.tox/py37/bin/python3
+Also creating executable in /home/szczepan/dev/python3/pigen/.tox/py37/bin/python
+Installing setuptools, pip, wheel...
+done.

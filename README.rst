@@ -67,25 +67,10 @@ Fractional Continuation | *pigen.frac_pi*
     # do something with digit
 
 
-Chudnovsky's Pure Algorithm | *pigen.chudnovsky_pi*
-===================================================
-
-* chudnovsky_pi is a regular function.
-* Useful if you need many digits at once.
-* Slower than using pigen.frac_pi but less fussy.
-* You need only pass the number of digits you'd like to generate.
-
-.. code-block:: python
-
-  from pigen import chudnovsky_pi as cpi
-  n = 1000
-  n_pi_digits = cpi(n) # An integer `n` digits long containing digits of pi
-
-
-Chudnovsky's Binary Search | *pigen.chudnovsky_pi_bs*
+Chudnovsky's Binary Search | *pigen.chudnovsky_pi*
 =====================================================
 
-* chudnovsky_pi_bs is a regular function.
+* chudnovsky_pi is a regular function.
 * Useful if you need many digits at once.
 * The absolute fastest across the board. If you need a million
 * digits or more, this has got you covered.
@@ -95,9 +80,9 @@ Chudnovsky's Binary Search | *pigen.chudnovsky_pi_bs*
 
 .. code-block:: python
 
-  from pigen import chudnovsky_pi_bs as cpibs
+  from pigen import chudnovsky_pi as cpibs
   n = 1000000
-  n_pi_digits = cpibs(n) # An integer `n` digits long containing digits of pi
+  n_pi_digits = cpi(n) # An integer `n` digits long containing digits of pi
 
 Other
 -----

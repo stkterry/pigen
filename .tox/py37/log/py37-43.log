@@ -1,0 +1,10 @@
+action: py37, msg: installpkg
+cwd: /home/szczepan/dev/python3/pigen
+cmd: /home/szczepan/dev/python3/pigen/.tox/py37/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/pigen-0.1.2.zip
+Processing ./.tox/.tmp/package/1/pigen-0.1.2.zip
+Building wheels for collected packages: pigen
+  Building wheel for pigen (setup.py): started
+  Building wheel for pigen (setup.py): finished with status 'canceled'
+ERROR: Operation cancelled by user
+WARNING: You are using pip version 19.3.1; however, version 20.0.2 is available.
+You should consider upgrading via the 'pip install --upgrade pip' command.

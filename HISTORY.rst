@@ -6,3 +6,5 @@ History
 ------------------
 
 * First release on PyPI.
+* Completely removed slower Chudnovsky function.
+  It didn't generate the correct sequence.

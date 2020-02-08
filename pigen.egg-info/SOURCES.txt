@@ -3,6 +3,7 @@ HISTORY.rst
 LICENSE
 MANIFEST.in
 README.rst
+setup.cfg
 setup.py
 pigen/__init__.py
 pigen/cli.py
@@ -13,3 +14,6 @@ pigen.egg-info/dependency_links.txt
 pigen.egg-info/not-zip-safe
 pigen.egg-info/requires.txt
 pigen.egg-info/top_level.txt
+tests/1K_digits_of_pi.txt
+tests/__init__.py
+tests/test_pigen.py
