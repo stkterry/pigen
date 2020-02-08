@@ -19,8 +19,8 @@ deploy:
     secure: Z6oE4Y0gBKEofTeZ0mtD8jlDCib7SZHDVyQhQG+8DKIcRThIkIlX3G+66E7EjV91WXc9hZfkg73iyU97DuEt86vNZAfcSm/6ca7bdEOkSMELEGLTtLlS9aLJr/sY8Mwy9RiS05ZzJYkV+pYcMbq7AmTz+o9oxRuJHrjw2GBZW12bws89V4UCsGlaao+O5mEv6wuwmQvRBEgOpsnsZiYlDghl9EJloCD2++ckdiEzI1j86mKRtjIFO1xsvz3lTKvPTo3E2hGuPSUvO6/y09g+7B8yCGepbSlcNd4VO4GqRTazlEF191zSOukXJ/qtFByLUZEm+1Fc+qSmbBSI8spmkWybl5UaGIupTmlwoFLMcK4IKNyRLC0GbV9hWP9tdAlHPMoJW5S+wyYR2gPytcbJ9YWbYZ/OfTfF3gl/lfEGOOwdGYWq9S7aQZRH1rP/Kp1MqpTzzhzONdYWTsmzy707BwlMLWNXXJsTtJtMPtP5FI4/JLee54dioU8g8FaZIvdjUDAlftgRLbtQIcLQoF/lszj9NbOTw+leYB2IRdm++xAsjimbeYA6oTNDCUg6s97nwsbrwOYC+Wm26YMRQXw0hff8ie1g7NfdEnijN8N9i75BSBg/R4+zhIS8F/1t2v8ffyi/1YfnL7k46Xqo8e2BXngBggPlW5uA2ATCFqJodmQ=
   on:
     tags: true
-    repo: Crymour/pigen
-    python: 3.8
+    repo: stkterry/pigen
+    python: 3.7
 
 before_install:
   - sudo apt -y install libmpc-dev
