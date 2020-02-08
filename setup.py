@@ -11,9 +11,9 @@ with open('HISTORY.rst') as history_file:
   history = history_file.read()
 
 requirements = [
-  'gmpy2',
   'Click>=7.0',
-  'mock',
+  'gmpy2>=2.0.8',
+  'mock>=4'
 ]
 
 setup_requirements = []
