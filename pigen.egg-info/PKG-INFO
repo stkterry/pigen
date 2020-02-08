@@ -1,0 +1,31 @@
+Metadata-Version: 1.2
+Name: pigen
+Version: 0.1.0
+Summary: A collection of Pi generators.
+Home-page: https://github.com/stkterry/pigen
+Author: Steven K Terry
+Author-email: stkterry@gmail.com
+License: MIT license
+Description: 
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-01-27)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: pigen
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
