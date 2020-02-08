@@ -13,7 +13,7 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'Click>=7.0',
     'gmpy2>=2.0.8',
-    'mock>=4'
+    'mock>=3'
 ]
 
 setup_requirements = []
