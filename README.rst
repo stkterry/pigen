@@ -24,7 +24,7 @@ a few million digits of pi?  This will help with that.
 Generators
 ----------
 
-Spigot's Algorithm **pigen.spigot_pi**
+Spigot's Algorithm *pigen.spigot_pi*
 ======================================
 
 * spigot_pi is a generator function.
@@ -40,7 +40,7 @@ Spigot's Algorithm **pigen.spigot_pi**
     digit = next(pi_gen)
     # do something with digit
 
-Fractional Continuation **pigen.frac_pi**
+Fractional Continuation *pigen.frac_pi*
 =========================================
 
 * frac_pi is a generator function.
@@ -66,7 +66,7 @@ Fractional Continuation **pigen.frac_pi**
     # do something with digit
 
 
-Chudnovsky's Pure Algorithm **pigen.chudnovsky_pi**
+Chudnovsky's Pure Algorithm *pigen.chudnovsky_pi*
 ===================================================
 
 * chudnovsky_pi is a regular function.
@@ -81,7 +81,7 @@ Chudnovsky's Pure Algorithm **pigen.chudnovsky_pi**
   n_pi_digits = cpi(n) # An integer `n` digits long containing digits of pi
   
 
-Chudnovsky's Binary Search **pigen.chudnovsky_pi_bs**
+Chudnovsky's Binary Search *pigen.chudnovsky_pi_bs*
 =====================================================
 
 * chudnovsky_pi_bs is a regular function.
@@ -96,11 +96,6 @@ Chudnovsky's Binary Search **pigen.chudnovsky_pi_bs**
   from pigen import chudnovsky_pi_bs as cpibs
   n = 1000000
   n_pi_digits = cpibs(n) # An integer `n` digits long containing digits of pi
-  print(n_pi_digits)
-
-.. code-block:: bash
-
-  >>31415
   
 Other
 -----
@@ -113,3 +108,4 @@ Other
 
 Credits
 -------
+* The Chudnovsky's BS Algorithm was pulled and updated from an example by Nick Craig-Wood.
