@@ -7,7 +7,7 @@ PiGen : Generators For Digits of Pi
         :target: https://pypi.python.org/pypi/pigen
 
 .. image:: https://img.shields.io/travis/stkterry/pigen.svg
-        :target: https://travis-ci.org/stkterry/pigen
+        :target: https://travis-ci.com/stkterry/pigen
 
 .. image:: https://readthedocs.org/projects/pigen/badge/?version=latest
         :target: https://pigen.readthedocs.io/en/latest/?badge=latest
