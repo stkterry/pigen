@@ -14,3 +14,10 @@ deploy:
     tags: true
     repo: Crymour/pigen
     python: 3.8
+
+before_install:
+  - sudo apt -y install libmpc-dev
+  - sudo apt -y install libgmp3-dev
+addons:
+  apt:
+    update: true
